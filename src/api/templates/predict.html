@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+	<title> Rakuten predict </title>
+{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col">
+            {{data.text|safe}}
+        </div>
+    </div>
+  </div><!-- /.container -->
+
+{% endblock %}

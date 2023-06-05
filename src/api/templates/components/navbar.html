@@ -1,0 +1,42 @@
+<div class="container">
+<!--<nav class="navbar navbar-expand-lg" style="background-color: #211b15;">-->
+<nav class="navbar navbar-expand-md navbar-light fixed-top shadow-sm" style="background-color: #e3f2fd;">
+  <div class="container-fluid">
+
+    <a class="navbar-brand" href="/home">
+      <img src="static/images/Rakuten_API.png" width="30" height="30" class="d-inline-block align-top" alt="">
+      Rakuten<b>API</b>
+    </a>
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item  {{'active' if active_page == 'home' }}">
+              <a class="nav-link" href="/home">Home</a>
+          </li>
+          <li class="nav-item {{'active' if active_page == 'about' }}">
+              <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item {{'active' if active_page == 'predict' }}">
+              <a class="nav-link" href="/predict">Test modals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/docs/">Docs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/redoc/">ReDoc</a>
+          </li>
+        </ul>
+        <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li><a class="nav-link" href="/register">Register</a></li>
+          <li><a class="nav-link" href="/login">Login</a></li>
+        </ul> -->
+      </div>
+  </div>
+</nav>
+
+
+
