@@ -13,7 +13,6 @@ def test_home():
     assert response.status_code == 200
 
 def test_page_about():
-    response = client.get("/about",
-                          headers={"content-type": "html; charset=utf-8"})
+    response = client.get("/about", headers={"content-type": "html; charset=utf-8"})
     assert response.status_code == 200
     assert b"About" in response.content
